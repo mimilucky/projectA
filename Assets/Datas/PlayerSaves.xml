@@ -1,0 +1,36 @@
+﻿<ArrayOfCPlayers>
+  <cPlayers Index="1" Name="测试型机械提督" Rank="L">
+    <Levels Level="0" CurrentExp="0" />
+    <Moneys Oil="100" Bullet="100" Steel="100" Aluminum="100" />
+    <Teams>
+      <Fight Index="0" MainGirl="1001" SurppotGirl="4001" />
+      <Expedition Index="0" MainGirl="0" SurppotGirl="0" />
+    </Teams>
+    <Girls>
+      <cPCShipGirls Index="1001">
+        <Levels Level="0" CurrentExp="66" />
+        <Equips>
+          <cES TypeLimit="G_DD" Index="1001" />
+          <cES TypeLimit="Torpedo" Index="1501" />
+          <cES TypeLimit="AntiAC" Index="1901" />
+        </Equips>
+      </cPCShipGirls>
+      <cPCShipGirls Index="4001">
+        <Levels Level="0" CurrentExp="66" />
+        <Equips>
+          <cES TypeLimit="G_BB" Index="1301" />
+          <cES TypeLimit="SG" Index="1401" />
+          <cES TypeLimit="AntiAC" Index="1901" />
+        </Equips>
+      </cPCShipGirls>
+    </Girls>
+    <Items>
+      <int>1001</int>
+      <int>1002</int>
+    </Items>
+    <Equips>
+      <int>1001</int>
+      <int>1002</int>
+    </Equips>
+  </cPlayers>
+</ArrayOfCPlayers>

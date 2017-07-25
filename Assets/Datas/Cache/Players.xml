@@ -1,0 +1,12 @@
+﻿<ArrayOfCRanks>
+  <cRanks Type="NLC" Name="NLC" />
+  <cRanks Type="TLC" Name="TLC" />
+  <cRanks Type="LC" Name="LC" />
+  <cRanks Type="NCM" Name="NCM" />
+  <cRanks Type="CM" Name="CM" />
+  <cRanks Type="C" Name="C" />
+  <cRanks Type="RA" Name="RA" />
+  <cRanks Type="VA" Name="VA" />
+  <cRanks Type="A" Name="A" />
+  <cRanks Type="AF" Name="AF" />
+</ArrayOfCRanks>

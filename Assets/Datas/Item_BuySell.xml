@@ -1,0 +1,9 @@
+﻿<ArrayOfBuySell>
+  <BuySell Index="0">
+    <Buy Type="Oil" Price="50" />
+    <Sell Type="Oil" Price="50" />
+  </BuySell>
+  <BuySell Index="100">
+    <Buy Type="Oil" Price="50" />
+  </BuySell>
+</ArrayOfBuySell>

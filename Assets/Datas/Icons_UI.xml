@@ -1,0 +1,39 @@
+﻿<ArrayOfIntAndString>
+<!-- Player Money Icon 0 -->
+  <IntAndString Index="0" Value="UI_Icons_Money_01" />
+  <IntAndString Index="1" Value="UI_Icons_Money_02" />
+  <IntAndString Index="2" Value="UI_Icons_Money_03" />
+  <IntAndString Index="3" Value="UI_Icons_Money_04" />
+<!-- ShipGirl Attribute Icon 100 -->
+  <IntAndString Index="100" Value="UI_Icons_SGA_01" />
+  <IntAndString Index="101" Value="UI_Icons_SGA_02" />
+  <IntAndString Index="102" Value="UI_Icons_SGA_03" />
+  <IntAndString Index="103" Value="UI_Icons_SGA_04" />
+  <IntAndString Index="104" Value="UI_Icons_SGA_05" />
+  <IntAndString Index="105" Value="UI_Icons_SGA_06" />
+  <IntAndString Index="106" Value="UI_Icons_SGA_07" />
+  <IntAndString Index="107" Value="UI_Icons_SGA_08" />
+  <IntAndString Index="108" Value="UI_Icons_SGA_09" />
+  <IntAndString Index="109" Value="UI_Icons_SGA_10" />
+  <IntAndString Index="110" Value="UI_Icons_SGA_11" />
+  <IntAndString Index="111" Value="UI_Icons_SGA_12" />
+  <IntAndString Index="112" Value="UI_Icons_SGA_13" />
+<!-- Equips Attribute Icon 200 -->
+  <IntAndString Index="200" Value="UI_Icons_EFA_01" />
+  <IntAndString Index="201" Value="UI_Icons_EFA_02" />
+  <IntAndString Index="202" Value="UI_Icons_EFA_03" />
+  <IntAndString Index="203" Value="UI_Icons_EFA_04" />
+  <IntAndString Index="204" Value="UI_Icons_EFA_05" />
+  <IntAndString Index="205" Value="UI_Icons_EFA_06" />
+  <IntAndString Index="206" Value="UI_Icons_EFA_07" />
+  <IntAndString Index="207" Value="UI_Icons_EFA_08" />
+<!-- Ship Type 1000 -->
+  <IntAndString Index="1000" Value="UI_Icons_ShipType_DD" />
+  <IntAndString Index="1001" Value="UI_Icons_ShipType_CL" />
+  <IntAndString Index="1002" Value="UI_Icons_ShipType_CA" />
+  <IntAndString Index="1003" Value="UI_Icons_ShipType_BB" />
+  <IntAndString Index="1004" Value="UI_Icons_ShipType_CVL" />
+  <IntAndString Index="1005" Value="UI_Icons_ShipType_CV" />
+  <IntAndString Index="1006" Value="UI_Icons_ShipType_SS" />
+  <IntAndString Index="1007" Value="UI_Icons_ShipType_CLT" />
+</ArrayOfIntAndString>

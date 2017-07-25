@@ -1,0 +1,85 @@
+﻿<ArrayOfCEquips>
+  <cEquips Index="1001" Rare="SR" Type="G_DD">
+    <FightAttribute Dmg="2" Count="1" Speed="0.2" DmgType="Gun" LockType="Lock" AtkType="Direct" Range="60" OffSet="10" />
+    <Equips Name="驱逐主炮" Descript="测试用驱逐主炮" />
+  </cEquips>
+  <cEquips Index="1002" Rare="SSR" Type="G_DD">
+    <FightAttribute Dmg="4" Count="1" Speed="0.2" DmgType="Gun" LockType="Lock" AtkType="Direct" Range="60" OffSet="10" />
+    <Equips Name="驱逐主炮T2" Descript="测试用驱逐主炮T2" />
+  </cEquips>
+  <cEquips Index="1101" Rare="SR" Type="G_CL">
+    <FightAttribute Dmg="20" Count="2" Speed="1.5" DmgType="Gun" LockType="Lock" AtkType="Direct" Range="80" OffSet="10" />
+    <Equips Name="轻巡主炮" Descript="测试用轻巡主炮" />
+  </cEquips>
+  <cEquips Index="1102" Rare="SSR" Type="G_CL">
+    <FightAttribute Dmg="25" Count="2" Speed="1.5" DmgType="Gun" LockType="Lock" AtkType="Direct" Range="80" OffSet="10" />
+    <Equips Name="轻巡主炮T2" Descript="测试用轻巡主炮T2" />
+  </cEquips>
+  <cEquips Index="1201" Rare="SR" Type="G_CA">
+    <FightAttribute Dmg="30" Count="2" Speed="2.0" DmgType="Gun" LockType="Lock" AtkType="Direct" Range="90" OffSet="15" />
+    <Equips Name="重巡主炮" Descript="测试用重巡主炮" />
+  </cEquips>
+  <cEquips Index="1202" Rare="SSR" Type="G_CA">
+    <FightAttribute Dmg="35" Count="2" Speed="2.0" DmgType="Gun" LockType="Lock" AtkType="Direct" Range="90" OffSet="15" />
+    <Equips Name="重巡主炮T2" Descript="测试用重巡主炮T2" />
+  </cEquips>
+  <cEquips Index="1301" Rare="SR" Type="G_BB">
+    <FightAttribute Dmg="50" Count="2" Speed="1.0" DmgType="Gun" LockType="UnLock" AtkType="Cross" Range="100" OffSet="20" />
+    <Equips Name="战列主炮" Descript="测试用战列主炮" />
+  </cEquips>
+  <cEquips Index="1302" Rare="SSR" Type="G_BB">
+    <FightAttribute Dmg="55" Count="2" Speed="1.0" DmgType="Gun" LockType="UnLock" AtkType="Cross" Range="100" OffSet="20" />
+    <Equips Name="战列主炮T2" Descript="测试用战列主炮T2" />
+  </cEquips>
+  <cEquips Index="1401" Rare="SR" Type="SG">
+    <FightAttribute Dmg="50" Count="2" Speed="1.0" DmgType="Gun" LockType="UnLock" AtkType="Cross" Range="100" OffSet="20" />
+    <Equips Name="副炮" Descript="测试用副炮" />
+  </cEquips>
+  <cEquips Index="1402" Rare="SSR" Type="SG">
+    <FightAttribute Dmg="55" Count="2" Speed="1.0" DmgType="Gun" LockType="UnLock" AtkType="Cross" Range="100" OffSet="20" />
+    <Equips Name="副炮T2" Descript="测试用副炮T2" />
+  </cEquips>
+  <cEquips Index="1501" Rare="SR" Type="Torpedo">
+    <FightAttribute Dmg="100" Count="5" Speed="5.0" DmgType="Torpedo" LockType="UnLock" AtkType="Scatter" Range="100" OffSet="0" />
+    <Equips Name="鱼雷" Descript="测试用鱼雷" />
+  </cEquips>
+  <cEquips Index="1502" Rare="SSR" Type="Torpedo">
+    <FightAttribute Dmg="150" Count="5" Speed="5.0" DmgType="Torpedo" LockType="UnLock" AtkType="Scatter" Range="100" OffSet="0" />
+    <Equips Name="鱼雷T2" Descript="测试用鱼雷T2" />
+  </cEquips>
+  <cEquips Index="1601" Rare="SR" Type="AC_Fight">
+    <FightAttribute Dmg="80" Count="5" Speed="8.0" DmgType="AirFight" LockType="Lock" AtkType="Direct" Range="0" OffSet="0" />
+    <Equips Name="战斗机" Descript="测试用战斗机" />
+  </cEquips>
+  <cEquips Index="1602" Rare="SSR" Type="AC_Fight">
+    <FightAttribute Dmg="120" Count="5" Speed="8.0" DmgType="AirFight" LockType="Lock" AtkType="Direct" Range="0" OffSet="0" />
+    <Equips Name="战斗机T2" Descript="测试用战斗机T2" />
+  </cEquips>
+  <cEquips Index="1701" Rare="SR" Type="AC_Torpedo">
+    <FightAttribute Dmg="100" Count="5" Speed="8.0" DmgType="Torpedo" LockType="UnLock" AtkType="Scatter" Range="0" OffSet="0" />
+    <Equips Name="鱼雷机" Descript="测试用鱼雷机" />
+  </cEquips>
+  <cEquips Index="1702" Rare="SSR" Type="AC_Torpedo">
+    <FightAttribute Dmg="150" Count="5" Speed="8.0" DmgType="Torpedo" LockType="UnLock" AtkType="Scatter" Range="0" OffSet="0" />
+    <Equips Name="鱼雷机T2" Descript="测试用鱼雷机T2" />
+  </cEquips>
+  <cEquips Index="1801" Rare="SR" Type="AC_Bomber">
+    <FightAttribute Dmg="110" Count="5" Speed="8.0" DmgType="Bomber" LockType="Lock" AtkType="Scatter" Range="0" OffSet="0" />
+    <Equips Name="轰炸机" Descript="测试用轰炸机" />
+  </cEquips>
+  <cEquips Index="1802" Rare="SSR" Type="AC_Bomber">
+    <FightAttribute Dmg="110" Count="5" Speed="8.0" DmgType="Bomber" LockType="Lock" AtkType="Scatter" Range="0" OffSet="0" />
+    <Equips Name="轰炸机T2" Descript="测试用轰炸机T2" />
+  </cEquips>
+  <cEquips Index="1901" Rare="SR" Type="AntiAC">
+    <FightAttribute Dmg="80" Count="5" Speed="3.0" DmgType="AntiAirCraft" LockType="Lock" AtkType="Direct" Range="60" OffSet="0" />
+    <Equips Name="防空机炮" Descript="测试用防空机炮" />
+  </cEquips>
+  <cEquips Index="1902" Rare="SSR" Type="AntiAC">
+    <FightAttribute Dmg="120" Count="5" Speed="3.0" DmgType="AntiAirCraft" LockType="Lock" AtkType="Direct" Range="60" OffSet="0" />
+    <Equips Name="防空机炮T2" Descript="测试用防空机炮T2" />
+  </cEquips>
+  <cEquips Index="2001" Rare="SR" Type="E">
+    <Equips Name="钢板" Descript="嘎嘣脆的钢板..." />
+  </cEquips>
+</ArrayOfCEquips>

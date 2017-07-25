@@ -1,0 +1,19 @@
+﻿<ArrayOfCPlayers>
+  <cPlayers Index="0" Name="WhoAmI" Rank="L">
+    <Levels Level="1" CurrentExp="0" />
+    <Moneys Oil="100" Bullet="100" Steel="100" Aluminum="100" />
+    <Teams>
+      <Fight Index="0" MainGirl="0" SurppotGirl="0" />
+      <Fight Index="1" MainGirl="0" SurppotGirl="0" />
+      <Fight Index="2" MainGirl="0" SurppotGirl="0" />
+      <Fight Index="3" MainGirl="0" SurppotGirl="0" />
+      <Expedition Index="0" MainGirl="0" SurppotGirl="0" />
+      <Expedition Index="1" MainGirl="0" SurppotGirl="0" />
+      <Expedition Index="2" MainGirl="0" SurppotGirl="0" />
+      <Expedition Index="3" MainGirl="0" SurppotGirl="0" />
+    </Teams>
+    <Girls />
+    <Items />
+    <Equips />
+  </cPlayers>
+</ArrayOfCPlayers>

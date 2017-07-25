@@ -1,0 +1,13 @@
+﻿<ArrayOfCEquips>
+  <cEquips Index="0" Rare="N" EquipsType="G_CL">
+    <ShipGirlAttribute T="HP" V="10" />
+    <ShipGirlAttribute T="Avoid" V="8" />
+    <FightAttribute Dmg="0" Count="0" Speed="0" DmgType="MainGun" LockType="UnLock" AtkType="Direct" Range="0" Angle="0" OffSet="0" BulletType="N" BulletValue="0" />
+    <Equips Name="武器" Descript="说明: 这是一个武器" />
+  </cEquips>
+  <cEquips Index="0" Rare="N" EquipsType="G_CL">
+    <ShipGirlAttribute T="HP" V="10" />
+    <ShipGirlAttribute T="Avoid" V="8" />
+    <Equips Name="设备" Descript="说明: 这是一个设备" />
+  </cEquips>
+</ArrayOfCEquips>

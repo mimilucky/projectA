@@ -1,0 +1,56 @@
+﻿<ArrayOfIntAndString>
+<!--Ship Type 0-->
+  <IntAndString Index="0" Value="驱逐" />
+  <IntAndString Index="1" Value="轻巡" />
+  <IntAndString Index="2" Value="重巡" />
+  <IntAndString Index="3" Value="战列" />
+  <IntAndString Index="4" Value="轻母" />
+  <IntAndString Index="5" Value="航母" />
+  <IntAndString Index="6" Value="潜艇" />
+  <IntAndString Index="7" Value="雷巡" />
+<!--Equips Type 100-->
+  <IntAndString Index="100" Value="主炮" />
+  <IntAndString Index="101" Value="主炮" />
+  <IntAndString Index="102" Value="主炮" />
+  <IntAndString Index="103" Value="主炮" />
+  <IntAndString Index="104" Value="副炮" />
+  <IntAndString Index="105" Value="鱼雷" />
+  <IntAndString Index="106" Value="战斗机" />
+  <IntAndString Index="107" Value="鱼雷机" />
+  <IntAndString Index="108" Value="轰炸机" />
+  <IntAndString Index="109" Value="防空炮" />
+  <IntAndString Index="110" Value="设备" />
+<!--Lock Type 500-->
+  <IntAndString Index="500" Value="不锁定" />
+  <IntAndString Index="501" Value="锁定" />
+<!--Attack Type 510-->
+  <IntAndString Index="510" Value="直射" />
+  <IntAndString Index="511" Value="散射" />
+  <IntAndString Index="512" Value="抛射" />
+<!--Damage Type 520-->
+  <IntAndString Index="520" Value="炮击" />
+  <IntAndString Index="521" Value="雷击" />
+  <IntAndString Index="522" Value="防空" />
+  <IntAndString Index="523" Value="空战" />
+  <IntAndString Index="524" Value="轰炸" />
+<!--Bullet Type 530-->
+  <IntAndString Index="530" Value="普通弹" />
+  <IntAndString Index="531" Value="高爆弹" />
+  <IntAndString Index="532" Value="穿甲弹" />
+<!--Ranks 1000-->
+  <IntAndString Index="1000" Value="上尉" />
+  <IntAndString Index="1001" Value="少校[新晋]" />
+  <IntAndString Index="1002" Value="少校" />
+  <IntAndString Index="1003" Value="中校[新晋]" />
+  <IntAndString Index="1004" Value="中校" />
+  <IntAndString Index="1005" Value="上校" />
+  <IntAndString Index="1006" Value="少将" />
+  <IntAndString Index="1007" Value="中将" />
+  <IntAndString Index="1008" Value="上将" />
+  <IntAndString Index="1009" Value="元帅" />
+<!--部分界面UI文字 10000-->
+  <IntAndString Index="10000" Value="等级: " />
+  <IntAndString Index="10001" Value="军衔: " />
+<!--部分界面UI文字 10010-->
+  <IntAndString Index="10010" Value="萌新" />
+</ArrayOfIntAndString>

@@ -1,0 +1,71 @@
+﻿<ArrayOfCShipGirls>
+  <cShipGirls Index="1001" Types="DD">
+    <Girls Name="岛风" Descript="这是一只岛风!" />
+    <Attributes>
+		<cSGBA Type="HP" Value="19" Growth="0.133" />
+		<cSGBA Type="Armor" Value="8" Growth="0.7" />
+		<cSGBA Type="Power" Value="12" Growth="0.566" />
+		<cSGBA Type="Torpedo" Value="45" Growth="1.466" />
+		<cSGBA Type="AntiAirCraft" Value="14" Growth="1.166" />
+		<cSGBA Type="AntiSubmarine" Value="24" Growth="0.833" />
+		<cSGBA Type="AirCraft" Value="0" Growth="0" />
+		<cSGBA Type="Radar" Value="7" Growth="0.4" />
+		<cSGBA Type="Speed" Value="30" Growth="0" />	
+		<cSGBA Type="Reload" Value="0" Growth="0.333" />
+		<cSGBA Type="Hit" Value="80" Growth="1.633" />
+		<cSGBA Type="Avoid" Value="50" Growth="1.633" />
+		<cSGBA Type="Luck" Value="10" Growth="1.3" />
+    </Attributes>
+    <EquipSlots>
+		<cES TypeLimit="G_DD" Index="1001" />
+		<cES TypeLimit="Torpedo" Index="1501" />
+		<cES TypeLimit="AntiAC" Index="1901" />
+    </EquipSlots>
+  </cShipGirls>
+  <cShipGirls Index="2001" Types="CL">
+    <Girls Name="北上" Descript="这是一只北上!" />
+    <Attributes>
+		<cSGBA Type="HP" Value="25" Growth="0.133" />
+		<cSGBA Type="Armor" Value="10" Growth="0.633" />
+		<cSGBA Type="Power" Value="14" Growth="0.833" />
+		<cSGBA Type="Torpedo" Value="24" Growth="1.833" />
+		<cSGBA Type="AntiAirCraft" Value="13" Growth="1.2" />
+		<cSGBA Type="AntiSubmarine" Value="19" Growth="1.333" />
+		<cSGBA Type="AirCraft" Value="0" Growth="0" />
+		<cSGBA Type="Radar" Value="8" Growth="1.033" />
+		<cSGBA Type="Speed" Value="30" Growth="0" />
+		<cSGBA Type="Reload" Value="0" Growth="0.333" />
+		<cSGBA Type="Hit" Value="80" Growth="1.233" />
+		<cSGBA Type="Avoid" Value="36" Growth="1.1" />
+		<cSGBA Type="Luck" Value="15" Growth="1.8" />
+    </Attributes>
+    <EquipSlots>
+		<cES TypeLimit="G_CL" Index="1101" />
+		<cES TypeLimit="Torpedo" Index="1401" />
+		<cES TypeLimit="AntiAC" Index="1901" />
+    </EquipSlots>
+  </cShipGirls>
+  <cShipGirls Index="4001" Types="BB">
+    <Girls Name="金刚" Descript="这是一只金刚!" />
+    <Attributes>
+		<cSGBA Type="HP" Value="63" Growth="0.233" />
+		<cSGBA Type="Armor" Value="52" Growth="0.566" />
+		<cSGBA Type="Power" Value="63" Growth="0.866" />
+		<cSGBA Type="Torpedo" Value="0" Growth="0" />
+		<cSGBA Type="AntiAirCraft" Value="24" Growth="1.5" />
+		<cSGBA Type="AntiSubmarine" Value="0" Growth="0" />
+		<cSGBA Type="AirCraft" Value="9" Growth="0" />
+		<cSGBA Type="Radar" Value="13" Growth="0.866" />
+		<cSGBA Type="Speed" Value="30" Growth="0" />
+		<cSGBA Type="Reload" Value="0" Growth="0.333" />
+		<cSGBA Type="Hit" Value="80" Growth="0.966" />
+		<cSGBA Type="Avoid" Value="30" Growth="0.966" />
+		<cSGBA Type="Luck" Value="12" Growth="1.233" />
+    </Attributes>
+    <EquipSlots>
+		<cES TypeLimit="G_BB" Index="1301" />
+		<cES TypeLimit="SG" Index="1401" />
+		<cES TypeLimit="AntiAC" Index="1901" />
+    </EquipSlots>
+  </cShipGirls>
+</ArrayOfCShipGirls>
