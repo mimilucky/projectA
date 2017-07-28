@@ -1,5 +1,5 @@
 .git/
 projectA.csproj
 projectA.sln
-Library/
 .vs/
+temp/
