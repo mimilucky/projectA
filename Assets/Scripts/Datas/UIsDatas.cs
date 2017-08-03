@@ -5,8 +5,9 @@ using UnityEngine;
 public class UIsDatas {
 	// 立绘
 	static Dictionary <int, Sprite> dic_GirlSprite = new Dictionary<int, Sprite> ();
-	// 铭牌
-	static Dictionary<int, Sprite> dic_GirlNamePlate = new Dictionary<int, Sprite> ();
+    static Dictionary<int, Sprite> dic_EnnemySprite = new Dictionary<int, Sprite>();
+    // 铭牌
+    static Dictionary<int, Sprite> dic_GirlNamePlate = new Dictionary<int, Sprite> ();
 	// 头像
 	static Dictionary<int, Sprite> dic_GirlAvatar = new Dictionary<int, Sprite>();
 	// 装备图标
@@ -23,7 +24,8 @@ public class UIsDatas {
 	public static void Init() {
 		str_path = Application.dataPath + "/Datas/";
 		LoadSprite (dic_GirlSprite, "Girls_Sprites.xml", "Sprites/Girls/");
-		LoadSprite (dic_EquipIcon, "Icons_Equips.xml", "Icons/Equips/");
+        LoadSprite(dic_EnnemySprite, "Ennemy_Sprites.xml", "Sprites/Enemy/");
+        LoadSprite (dic_EquipIcon, "Icons_Equips.xml", "Icons/Equips/");
 		//LoadSprite (dic_UIIcon, "Icons_UI.xml", "Icons/UIs/");
 	}
 
@@ -49,7 +51,11 @@ public class UIsDatas {
 	public static Sprite GetGirlSprite(int index) {
 		return dic_GirlSprite [index];
 	}
-	public static Sprite GetGirlNamePlate(int index) {
+    public static Sprite GetEnnemySprite(int index)
+    {
+        return dic_EnnemySprite[index];
+    }
+    public static Sprite GetGirlNamePlate(int index) {
 		return dic_GirlNamePlate [index];
 	}
 	public static Sprite GetGirlAvatar(int index) {

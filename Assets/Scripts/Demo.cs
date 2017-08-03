@@ -25,6 +25,6 @@ public class Demo : MonoBehaviour {
 		// 实例化UI加载数据
 		MyDelegate.OnInitUIDataEvent ();
 
-		CanvasShowOff.Instance.ShowOnlyOne ("MainCanvas");
+		CanvasShowOff.Instance.ShowOnlyOne ("BattleCanvas");
 	}
 }
