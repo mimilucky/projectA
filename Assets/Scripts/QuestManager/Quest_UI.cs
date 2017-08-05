@@ -99,6 +99,14 @@ public class Quest_UI : MonoBehaviour
             if (questMaster.currentQuestList[i].id == questID && questMaster.currentQuestList[i].progress == Quest.QuestProgress.COMPLETE)
             {
                 questMaster.currentQuestList[i].progress = Quest.QuestProgress.DONE;
+                // 完成任务, 执行任务奖励
+                int expReward = questMaster.currentQuestList[i].expReward;                
+                Debug.Log("经验增加" + expReward);
+                int goldReward = questMaster.currentQuestList[i].goldReward;
+                Debug.Log("金币增加" + goldReward);
+                string itemReward = questMaster.currentQuestList[i].itemReward;
+                 Debug.Log("获得物品" + itemReward);             
+                                
                 questMaster.currentQuestList.Remove(questMaster.currentQuestList[i]);
                 CheckChainQuest(questID);
                 questMaster.CallEventQuestDone(questID);
@@ -150,4 +158,6 @@ public class Quest_UI : MonoBehaviour
             }
         }
     }
+
+
 }
