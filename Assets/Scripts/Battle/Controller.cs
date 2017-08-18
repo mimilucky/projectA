@@ -12,14 +12,17 @@ public class Controller : MonoBehaviour {
     {
         Debug.Log("building combat scene");
         ally = PlayersDatas.GetTeams();
-        
+
         //制造友军
-        foreach (cNavis obj in ally.Fight)
+        for (int i = 0; i < ally.Fight.Length; i++)
         {
             GameObject temp = Instantiate(Ship, AllyPanel.transform);
             Image logo = temp.GetComponentInChildren<Image>();
-            logo.sprite = UIsDatas.GetGirlSprite(obj.MainGirl);
+            logo.sprite = UIsDatas.GetGirlSprite(ally.Fight[i].MainGirl);
+            cShipGirls ship = ShipGirlsDatas.Get(ally.Fight[i].MainGirl);
+            BattleStats.AllyHP[i] = 300;
         }
+        
 
         //制造敌军
         for (int i = 0; i < 1; i++)
@@ -31,8 +34,9 @@ public class Controller : MonoBehaviour {
 
 
     }
-    // Update is called once per frame
-    void Update () {
-		
-	}
+
+    private void FixedUpdate()
+    {
+        BattleStats.time();
+    }
 }
