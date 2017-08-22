@@ -1,4 +1,7 @@
-﻿using System.Xml.Serialization;
+﻿
+
+
+using System.Xml.Serialization;
 public class cEquips {
 	[XmlAttribute]
 	public int Index { get; set; }
