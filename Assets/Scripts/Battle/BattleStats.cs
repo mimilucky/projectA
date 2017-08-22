@@ -20,12 +20,11 @@ public static class BattleStats{
         {
             //InitialCD[i] = ShipGirlsDatas.Get(AllyID[i]).TI;
         }
-
-
         NormalCD = new float[6];
 
     }
 
+    //数cd
     public static void time()
     {
         
@@ -48,6 +47,7 @@ public static class BattleStats{
         }
     }
 
+    //射击
     public static void Shoot(int index)
     {
 

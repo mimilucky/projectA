@@ -19,18 +19,17 @@ public class ShipMove : MonoBehaviour {
         float Targety = transform.position.y + speed*moveDirection.y;
         RectTransform bounds = GetComponent<RectTransform>();
         
-        if (Targetx>104 && Targetx <588)
+
+        //设置范围
+        if (Targetx>104 && Targetx <588)//x 范围
         {
             TargetLocation.x = Targetx;
         }
-        if (Targety > 180 && Targety < 600)
+        if (Targety > 180 && Targety < 600)//y 范围
         {
             TargetLocation.y = Targety;
         }
-        transform.position = TargetLocation;
-    }
-    private void shoot()
-    {
 
+        transform.position = TargetLocation;
     }
 }
